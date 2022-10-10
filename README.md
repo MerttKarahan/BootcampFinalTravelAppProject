@@ -10,13 +10,8 @@ USED TECHNOLOGİES:
 - Alamofire
 - Kingfisher
 
-![simulator_screenshot_C38443AF-1D7C-4572-AD74-6F6BBC6A3A02](https://user-images.githubusercontent.com/105857163/194958213-2242d9dc-6bc6-4a12-bc89-002f2b2908e3.png)
-
-![simulator_screenshot_77908C5D-A35A-425E-90F8-9D93E5CC8B29](https://user-images.githubusercontent.com/105857163/194958274-6f22e853-97ff-43f5-9e85-01fd5572bd35.png)
-
-![simulator_screenshot_CECF2100-28AD-4A76-BE4D-E357E89EC7E9](https://user-images.githubusercontent.com/105857163/194958302-2a8c6cf6-0cf4-489e-8146-ac1bd5816682.png)
-
-![simulator_screenshot_FB579E8A-EC1E-4798-B8CD-695240361B04](https://user-images.githubusercontent.com/105857163/194958335-aa168c3c-ec00-4fa3-a46a-5a41d632e8ea.png)
-
-![simulator_screenshot_925126A6-91D0-4B82-AE33-27ECDED896C9](https://user-images.githubusercontent.com/105857163/194958387-b58fc9db-45eb-4a99-9a3b-67efb1df6bef.png)
-
+![Simulator Screen Shot - iPhone 13 Pro Max - 2022-10-11 at 01 10 49](https://user-images.githubusercontent.com/105857163/194960302-0bc12b16-0193-4a9e-a748-dcffe9840e7f.png)
+![Simulator Screen Shot - iPhone 13 Pro Max - 2022-10-11 at 01 10 55](https://user-images.githubusercontent.com/105857163/194960306-a25a6744-3298-41f5-98b5-e873dfcfd85a.png)
+![Simulator Screen Shot - iPhone 13 Pro Max - 2022-10-11 at 01 10 59](https://user-images.githubusercontent.com/105857163/194960314-0d8e78a4-08c3-41eb-8018-feba88538858.png)
+![Simulator Screen Shot - iPhone 13 Pro Max - 2022-10-11 at 01 12 50](https://user-images.githubusercontent.com/105857163/194960316-f6b0c456-cbca-4441-973b-7fd5468f9![Simulator Screen Shot - iPhone 13 Pro Max - 2022-10-11 at 01 13 01](https://user-images.githubusercontent.com/105857163/194960320-68287799-83e6-4844-8a0a-5e9471cd96aa.png)
+bc4.png)
