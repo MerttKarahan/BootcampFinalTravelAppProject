@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SourceSansPro-Bold.ttf">
+            <string>SourceSansPro-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ListViewController" customModule="TravelApp" customModuleProvider="target">
+            <connections>
+                <outlet property="backButton" destination="coP-Xk-7eX" id="K4Z-xO-9fx"/>
+                <outlet property="listCollectionView" destination="cvA-8i-aTR" id="tOv-m3-Mjo"/>
+                <outlet property="listLabel" destination="7PO-5d-jUX" id="U0c-4I-T7S"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="cvA-8i-aTR">
+                    <rect key="frame" x="16" y="113" width="382" height="749"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="14" minimumInteritemSpacing="0.0" id="4PV-Hk-Unm">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="coP-Xk-7eX">
+                    <rect key="frame" x="20" y="69" width="24" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="24" id="9Dc-eD-fk9"/>
+                        <constraint firstAttribute="height" constant="20" id="VUU-le-xiB"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                    <connections>
+                        <action selector="backButtonClicked:" destination="-1" eventType="touchUpInside" id="E4I-ao-y16"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7PO-5d-jUX">
+                    <rect key="frame" x="61" y="59" width="91" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="91" id="Yaf-BP-fOq"/>
+                        <constraint firstAttribute="height" constant="38" id="yhD-Rv-MgC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="SourceSansPro-Bold" family="Source Sans Pro" pointSize="30"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="coP-Xk-7eX" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="69" id="32y-eD-5dZ"/>
+                <constraint firstItem="coP-Xk-7eX" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="PZo-4s-lKf"/>
+                <constraint firstItem="7PO-5d-jUX" firstAttribute="leading" secondItem="coP-Xk-7eX" secondAttribute="trailing" constant="17" id="Txv-x2-MBe"/>
+                <constraint firstItem="cvA-8i-aTR" firstAttribute="top" secondItem="7PO-5d-jUX" secondAttribute="bottom" constant="16" id="Zn7-4n-KU7"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="cvA-8i-aTR" secondAttribute="trailing" constant="16" id="dRk-we-Wwz"/>
+                <constraint firstItem="cvA-8i-aTR" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="icn-Fc-2d4"/>
+                <constraint firstItem="7PO-5d-jUX" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="59" id="j0h-6Z-5Mu"/>
+                <constraint firstItem="cvA-8i-aTR" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="vga-4X-HTq"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="96.428571428571431"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
