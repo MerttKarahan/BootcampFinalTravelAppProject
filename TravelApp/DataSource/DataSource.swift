@@ -132,7 +132,6 @@ class DataSource{
         request.responseDecodable(of: HotelResponse.self) {response in
             if let value = response.value {
                 finishGetHotelIdList(.success(value))
-                print("merttest: page: \(page), first title: \(response.value?.data.body.searchResults.results.first?.name)")
             } else if let error = response.error {
                 finishGetHotelIdList(.failure(error))
             }

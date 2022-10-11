@@ -99,8 +99,6 @@ extension ListViewController: UICollectionViewDelegate, UICollectionViewDataSour
         } else if let response = listViewModel?.itemAtIndex(index: indexPath.row) as? HotelResult{
             let VC = HotelDetailBuilder.hotelBuilder(hotelResponse: response)
             self.navigationController?.pushViewController(VC, animated: true)
-        } else {
-            print("MERTTEST")
         }
     }
     

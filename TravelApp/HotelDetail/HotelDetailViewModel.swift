@@ -38,7 +38,6 @@ class HotelDetailViewModel: HotelDetailViewModelProtocol {
     
     init(hotelResult:HotelResult) {
         self.hotelResult = hotelResult
-        print("merttest: \(hotelResult.id)")
     }
     
     var content : [String] {

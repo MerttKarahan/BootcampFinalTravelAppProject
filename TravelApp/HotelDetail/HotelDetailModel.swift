@@ -24,7 +24,7 @@ class HotelDetailModel: HotelDetailModelProtocol {
                 self.hotelDetailBody = successHotelDetailResponse.data.body
                 finishGetHotelDetails()
             case.failure(let unsuccessfulHotelDetailResponse):
-                print("MERTTEST \(unsuccessfulHotelDetailResponse)")
+                print("\(unsuccessfulHotelDetailResponse)")
             }
         }
     }

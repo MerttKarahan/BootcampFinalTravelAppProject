@@ -162,8 +162,6 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
         } else if let response = searchViewModel?.itemAtIndex(indexPath.row) as? HotelResult{
             let VC = HotelDetailBuilder.hotelBuilder(hotelResponse: response)
             self.navigationController?.pushViewController(VC, animated: true)
-        } else {
-            print("MERTTEST")
         }
     }
     
