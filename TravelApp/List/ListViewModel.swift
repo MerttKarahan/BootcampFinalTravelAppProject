@@ -69,8 +69,13 @@ class ListViewModel: ListViewModelProtocol{
     
 //    For pagination
     func willDisplayCell(index: Int) {
-        if index == self.numberOfItems - 1 {
-            getDataFromModel()
+        switch listType {
+        case .Flight:
+            break
+        case .Hotels:
+            if index == self.numberOfItems - 1 {
+                getDataFromModel()
+            }
         }
     }
     
